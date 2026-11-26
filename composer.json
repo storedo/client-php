@@ -1,0 +1,40 @@
+{
+    "name": "storedo/client",
+    "description": "STOREDO-Client für PHP: Bewertung, Ampel und Aufgaben je Domain in eigene Software holen (nur lesend, ohne Abhängigkeiten).",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://www.storedo.de",
+    "keywords": [
+        "storedo",
+        "security",
+        "seo",
+        "agentur",
+        "integration"
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/Client.php"
+        ]
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "ma-kom agentur UG",
+            "homepage": "https://www.storedo.de"
+        }
+    ],
+    "support": {
+        "issues": "https://www.storedo.de/contact",
+        "docs": "https://www.storedo.de/agentur-integration"
+    }
+}
